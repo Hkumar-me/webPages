@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.tab{
+    width: 100px;
+    background-color: #aaaaaa;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.tab h2{
+    cursor: pointer;
+}
+.main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+}
+.hero{
+    width: 100%;
+    height: 80vh;
+    background-color: #ebe5e5;
+    display: flex;
+    align-items: center;
+    color: black;
+    justify-content: center;
+}
+.tab:hover{
+    scale: 1.025;
+}
+#tabs{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 10px 20px;
+    justify-content: center;
+    background-color: rgb(18, 17, 17);
+}
+.content{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgb(73, 73, 79);
+    padding: 10px 20px;
+}
+.content h1{
+    color: black;
+}
+.note{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+.footer{
+    background-color: rgb(18, 17, 17);
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center;
+}
